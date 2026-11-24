@@ -199,6 +199,10 @@ git push -u origin main
 Después, en GitHub: **Settings → Pages → Deploy from a branch → `main` + `/ (root)` → Save**.
 El sitio queda en `https://TU-USUARIO.github.io/lunaria/`.
 
+> En este repositorio ya está publicado con **GitHub Actions**: cada `push` a `main` ejecuta
+> `.github/workflows/pages.yml` y republica el sitio. No cambies la fuente de Pages a
+> “Deploy from a branch” si quieres conservar el despliegue automático.
+
 También puedes ejecutar `deploy.ps1` con la URL del repositorio y hace el commit y el push
 por ti. El proyecto ya incluye `.nojekyll`, `404.html` y `.gitignore` para Pages.
 

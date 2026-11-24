@@ -146,6 +146,13 @@ GitHub ya no acepta tu contraseña normal por HTTPS. Cuando `git push` pida cred
 
 ## Paso 5 · Activa GitHub Pages
 
+> **Importante en este repositorio:** ya está publicado con **GitHub Actions** mediante
+> el archivo `.github/workflows/pages.yml`. Ese flujo habilita Pages solo y publica en cada
+> `push`. Si lo tienes así, **no cambies la fuente a “Deploy from a branch”**: romperías el
+> despliegue automático. Salta al Paso 6 y usa la pestaña **Actions** para ver el estado.
+
+Si empiezas un repositorio desde cero y prefieres el método clásico:
+
 1. En el repositorio, entra a **Settings** (arriba a la derecha).
 2. Menú izquierdo → **Pages**.
 3. En **Build and deployment**:
