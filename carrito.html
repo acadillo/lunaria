@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tu bolsa · Lunaria</title>
+  <meta name="description" content="Revisa tu bolsa, aplica el cupón de temporada y completa tu pedido con envío a todo Colombia.">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#1c1a17">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="carrito">
+  <a class="skip-link" href="#main">Ir al contenido</a>
+  <div id="app-header"></div>
+
+  <main id="main">
+    <div class="page-head">
+      <div class="wrap">
+        <nav class="breadcrumb" aria-label="Ruta de navegación">
+          <a href="index.html">Inicio</a><span></span>
+          <a href="tienda.html">Tienda</a><span></span>
+          <span>Bolsa</span>
+        </nav>
+        <h1>Tu bolsa</h1>
+        <p>Revisa las tallas antes de pagar. Si dudas, la
+          <a href="guia-de-tallas.html" style="text-decoration:underline">guía de tallas</a>
+          resuelve casi todo.</p>
+      </div>
+    </div>
+
+    <div class="wrap" style="padding-top:clamp(24px,3vw,40px)">
+      <div id="cartContent" hidden>
+        <div class="cart-layout">
+          <div>
+            <div class="progress-card" id="progressCard"></div>
+            <div class="cart-list" id="cartList"></div>
+            <div style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:22px">
+              <a class="link-arrow" href="tienda.html">← Seguir comprando</a>
+              <span style="font-size:.78rem;color:var(--muted)">Cambios gratis 15 días · Envío asegurado</span>
+            </div>
+          </div>
+          <aside class="summary" id="summary" aria-label="Resumen de compra"></aside>
+        </div>
+
+        <section id="checkout" style="padding-top:clamp(24px,4vw,48px)">
+          <div class="section-head" style="margin-bottom:8px">
+            <div>
+              <p class="eyebrow">Paso final</p>
+              <h2>Datos de envío y pago</h2>
+            </div>
+            <p style="font-size:.78rem;color:var(--muted);max-width:32ch;margin:0">
+              Puedes comprar sin crear cuenta. Te enviamos la confirmación al correo.
+            </p>
+          </div>
+
+          <form id="checkoutForm" novalidate>
+            <div class="checkout">
+              <div>
+                <div class="checkout-block">
+                  <h2><span class="step">01</span> Contacto</h2>
+                  <div class="form-grid">
+                    <div class="field">
+                      <label for="nombre">Nombre *</label>
+                      <input id="nombre" name="nombre" type="text" autocomplete="given-name" required>
+                      <span class="error-text">Escribe tu nombre.</span>
+                    </div>
+                    <div class="field">
+                      <label for="apellido">Apellido *</label>
+                      <input id="apellido" name="apellido" type="text" autocomplete="family-name" required>
+                      <span class="error-text">Escribe tu apellido.</span>
+                    </div>
+                    <div class="field">
+                      <label for="email">Correo electrónico *</label>
+                      <input id="email" name="email" type="email" autocomplete="email" required>
+                      <span class="error-text">Escribe un correo válido.</span>
+                    </div>
+                    <div class="field">
+                      <label for="telefono">Teléfono / WhatsApp *</label>
+                      <input id="telefono" name="telefono" type="tel" autocomplete="tel" required>
+                      <span class="error-text">Escribe un teléfono de contacto.</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="checkout-block">
+                  <h2><span class="step">02</span> Envío</h2>
+                  <div class="form-grid">
+                    <div class="field">
+                      <label for="departamento">Departamento *</label>
+                      <select id="departamento" name="departamento" required></select>
+                      <span class="error-text">Selecciona tu departamento.</span>
+                    </div>
+                    <div class="field">
+                      <label for="ciudad">Ciudad *</label>
+                      <input id="ciudad" name="ciudad" type="text" autocomplete="address-level2" required>
+                      <span class="error-text">Escribe tu ciudad.</span>
+                    </div>
+                    <div class="field field--full">
+                      <label for="direccion">Dirección *</label>
+                      <input id="direccion" name="direccion" type="text" autocomplete="street-address"
+                             placeholder="Calle, carrera, número, apartamento" required>
+                      <span class="error-text">Escribe la dirección de entrega.</span>
+                    </div>
+                    <div class="field field--full">
+                      <label for="indicaciones">Indicaciones para el mensajero (opcional)</label>
+                      <textarea id="indicaciones" name="indicaciones" rows="2"
+                                placeholder="Torre, conjunto, punto de referencia…"></textarea>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="checkout-block">
+                  <h2><span class="step">03</span> Pago</h2>
+                  <div class="pay-options">
+                    <label class="pay-option">
+                      <input type="radio" name="pago" value="tarjeta" data-label="Tarjeta de crédito o débito">
+                      <span><b>Tarjeta de crédito o débito</b>
+                        <small>Visa y Mastercard · hasta 6 cuotas</small></span>
+                    </label>
+                    <label class="pay-option">
+                      <input type="radio" name="pago" value="pse" data-label="PSE">
+                      <span><b>PSE</b><small>Débito desde tu banco, en línea</small></span>
+                    </label>
+                    <label class="pay-option">
+                      <input type="radio" name="pago" value="nequi" data-label="Nequi">
+                      <span><b>Nequi</b><small>Pago desde la app, sin costo adicional</small></span>
+                    </label>
+                    <label class="pay-option">
+                      <input type="radio" name="pago" value="contraentrega" data-label="Pago contra entrega">
+                      <span><b>Pago contra entrega</b><small>Pagas en efectivo al recibir tu pedido</small></span>
+                    </label>
+                  </div>
+
+                  <label class="consent" for="consentDatos">
+                    <input id="consentDatos" type="checkbox" required>
+                    <span>Autorizo el tratamiento de mis datos personales conforme a la
+                      <a href="politicas.html#privacidad" style="text-decoration:underline">política de privacidad</a>
+                      (Ley 1581 de 2012).</span>
+                  </label>
+
+                  <button class="btn btn--solid btn--block" type="submit">Confirmar pedido</button>
+                  <p class="checkout-note">
+                    Sitio de demostración: no se realizan cobros reales. En producción este botón
+                    se conecta con la pasarela de pagos y el correo transaccional.
+                  </p>
+                </div>
+              </div>
+              <aside class="summary" id="checkoutTotals" aria-label="Total del pedido"></aside>
+            </div>
+          </form>
+        </section>
+      </div>
+
+      <div id="emptyCart" hidden>
+        <div class="empty-state" style="padding:clamp(40px,6vw,80px)">
+          <h3>Tu bolsa está vacía</h3>
+          <p style="color:var(--muted);max-width:44ch;margin:0 auto 22px">
+            Todavía no has elegido nada. Empieza por los modelos más vendidos o por la guía de tallas
+            si quieres llegar con el número claro.
+          </p>
+          <a class="btn btn--solid" href="tienda.html">Ver la colección</a>
+          <a class="btn" href="guia-de-tallas.html" style="margin-left:8px">Guía de tallas</a>
+        </div>
+      </div>
+
+      <div id="confirmation" hidden></div>
+    </div>
+  </main>
+
+  <div id="app-drawer"></div>
+  <div id="app-modal"></div>
+  <div id="app-footer"></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/core.js"></script>
+  <script src="assets/js/layout.js"></script>
+  <script src="assets/js/chatbot.js"></script>
+  <script src="assets/js/carrito.js"></script>
+</body>
+</html>

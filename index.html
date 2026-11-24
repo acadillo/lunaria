@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lunaria · Moda fresca en calzado femenino | El arte de caminar bonito</title>
+  <meta name="description" content="Calzado femenino en pequeños lotes: tacones, botines, sandalias y novia. Mira el reel, encuentra tu horma y compra con envío a todo Colombia.">
+  <meta name="theme-color" content="#1c1a17">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Lunaria · El arte de caminar bonito">
+  <meta property="og:description" content="Boutique de calzado femenino en Medellín. Tacones, botines, sandalias y novia en pequeños lotes.">
+  <meta property="og:image" content="assets/img/hero.jpg">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">Ir al contenido</a>
+  <div id="app-header"></div>
+
+  <main id="main">
+    <!-- Hero con reel -->
+    <section class="hero">
+      <div class="hero-media">
+        <video autoplay muted loop playsinline preload="metadata" aria-hidden="true"
+               poster="assets/img/reel-poster.jpg">
+          <source src="assets/video/lunaria-reel.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="hero-badge">Nuevo<br>drop<br>SS26</div>
+      <div class="wrap hero-inner">
+        <div class="hero-content">
+          <p class="eyebrow eyebrow--light">Nueva temporada · Moda fresca</p>
+          <h1>Zapatos para<br><em>vivir la calle</em></h1>
+          <p>Ocho modelos nuevos, hormas medidas sobre pies reales y una guía de tallas
+             que sí resuelve la duda. Diseñado en Medellín, hecho para caminar.</p>
+          <div class="hero-actions">
+            <a class="btn btn--light" href="tienda.html">Ver el drop</a>
+            <a class="btn btn--ghost-light" href="guia-de-tallas.html">Encontrar mi talla</a>
+            <button class="btn btn--ghost-light" type="button" data-open-video>
+              ▶ Ver el reel
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="hero-note">
+        <b>Horma real</b>
+        Cada modelo indica si es estrecho, estándar o amplio.
+      </div>
+    </section>
+
+    <!-- Barra de valor -->
+    <div class="value-bar">
+      <div class="wrap">
+        <ul>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v9H3z"/><path d="M14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="1.8"/><circle cx="17.5" cy="18" r="1.8"/></svg>
+            <div><b>Envío gratis</b>Desde $ 250.000 a todo el país</div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 0 1 13.6-5.7L20 8"/><path d="M20 4v4h-4"/><path d="M20 12a8 8 0 0 1-13.6 5.7L4 16"/><path d="M4 20v-4h4"/></svg>
+            <div><b>Cambios gratis</b>Hasta 15 días, sin preguntas</div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="1.5"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>
+            <div><b>Pago seguro</b>Tarjeta, PSE, Nequi o contra entrega</div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19c0-8 5-13 14-13 0 9-5 13-14 13Z"/><path d="M5 19c3-5 6-7 10-8.5"/></svg>
+            <div><b>Lotes pequeños</b>Diseñado y cosido en Colombia</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Colección -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Colección de temporada</p>
+            <h2>El drop del mes</h2>
+            <p>Diecisiete modelos elegidos a mano. Poca cantidad, mucha intención.</p>
+          </div>
+          <a class="link-arrow" href="tienda.html">Ver todo el catálogo →</a>
+        </div>
+        <div class="product-grid" id="featuredGrid"></div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div>
+        <span>Cuero de curtición vegetal</span>
+        <span>Hormas medidas en pies reales</span>
+        <span>Envío a todo Colombia</span>
+        <span>Cambios gratis 15 días</span>
+        <span>Hecho en Medellín</span>
+        <span>Cuero de curtición vegetal</span>
+        <span>Hormas medidas en pies reales</span>
+        <span>Envío a todo Colombia</span>
+        <span>Cambios gratis 15 días</span>
+        <span>Hecho en Medellín</span>
+      </div>
+    </div>
+
+    <!-- Reel -->
+    <section class="section reel">
+      <div class="wrap reel-inner">
+        <div>
+          <p class="eyebrow">El reel</p>
+          <h2>Mira el drop <em>en movimiento</em></h2>
+          <p>22 segundos, ocho modelos y una sola idea: el calzado se elige caminando.
+             Dale play y mira las hormas, los tacones y los materiales de cerca.</p>
+          <p style="margin-top:22px">
+            <button class="btn btn--light" type="button" data-open-video>▶ Reproducir video</button>
+          </p>
+        </div>
+        <button class="reel-thumb" type="button" data-open-video
+                aria-label="Reproducir el reel de la colección">
+          <img src="assets/img/reel-poster.jpg" alt="Portada del reel: modelo Amélie de Lunaria"
+               width="1280" height="720" loading="lazy">
+          <span class="reel-play" aria-hidden="true">▶</span>
+        </button>
+      </div>
+    </section>
+    <!-- Ocasiones -->
+    <section class="section" style="padding-top:0">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Elige por momento</p>
+            <h2>Un zapato para cada plan</h2>
+          </div>
+          <a class="link-arrow" href="tienda.html">Explorar todo →</a>
+        </div>
+        <div class="occasion-grid">
+          <a class="occasion reveal" href="tienda.html?cat=Botines">
+            <img src="assets/img/ocasion-oficina.jpg" alt="Mujer caminando por la ciudad con botines"
+                 width="900" height="498" loading="lazy">
+            <span><small>De lunes a viernes</small><strong>Para la oficina</strong></span>
+          </a>
+          <a class="occasion reveal" href="tienda.html?cat=Sandalias">
+            <img src="assets/img/ocasion-diario.jpg" alt="Tacones negros con jean de día"
+                 width="900" height="584" loading="lazy">
+            <span><small>Sin pensarlo</small><strong>Para el día a día</strong></span>
+          </a>
+          <a class="occasion reveal" href="tienda.html?cat=Novia">
+            <img src="assets/img/ocasion-fiesta.jpg" alt="Mujer sentada en escaleras con sandalias de tiras"
+                 width="900" height="1350" loading="lazy">
+            <span><small>Bodas y celebraciones</small><strong>Para la fiesta</strong></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Editorial hormas -->
+    <section class="section section--sand">
+      <div class="wrap">
+        <div class="split">
+          <div class="split-media reveal">
+            <img src="assets/img/editorial-boutique.jpg" alt="Interior de la boutique Lunaria con percheros y espejos"
+                 width="1400" height="933" loading="lazy">
+            <div class="split-badge"><span><b>7 años</b>midiendo pies reales</span></div>
+          </div>
+          <div class="split-body reveal">
+            <p class="eyebrow">Nuestra obsesión</p>
+            <h2>La talla correcta no es un número, es una horma</h2>
+            <p>Dos tallas 37 no son iguales: cambia el ancho, el arco, la altura del empeine.
+               Por eso medimos cada modelo sobre pies reales y escribimos en la ficha si la horma
+               es estrecha, estándar o amplia.</p>
+            <ul class="split-list">
+              <li>Medidas interiores publicadas en centímetros, no solo el número.</li>
+              <li>Recomendación de media talla cuando el modelo lo necesita.</li>
+              <li>Cambio de talla gratis: si no queda, la cambiamos sin costo.</li>
+            </ul>
+            <a class="btn" href="guia-de-tallas.html">Ver la guía de tallas</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Voces de clientas</p>
+            <h2>1.240 pares caminando por el país</h2>
+          </div>
+          <div class="rating"><span class="stars">★★★★★</span><span>4,8 de 5 en reseñas verificadas</span></div>
+        </div>
+        <div class="quote-band">
+          <div class="quote reveal">
+            <span class="stars">★★★★★</span>
+            <p>“Compré los botines Noir para trabajar de pie. Ocho horas y no me sacaron ampolla:
+               eso no me había pasado con ninguna otra marca.”</p>
+            <footer>Mariana G. · Medellín · talla 37</footer>
+          </div>
+          <div class="quote reveal">
+            <span class="stars">★★★★★</span>
+            <p>“La guía de tallas me salvó. Medí el pie con la regla como explican y pedí media talla
+               más. Llegaron perfectas y el cambio ni fue necesario.”</p>
+            <footer>Laura C. · Bogotá · talla 38</footer>
+          </div>
+          <div class="quote reveal">
+            <span class="stars">★★★★☆</span>
+            <p>“Usé las Perla en mi matrimonio. Los flecos se movían con el vestido y aguantaron
+               doce horas de baile. Las volvería a elegir.”</p>
+            <footer>Andrea P. · Cali · talla 36</footer>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Lookbook -->
+    <section class="section" style="padding-top:0">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">#CaminarBonito</p>
+            <h2>Cómo se llevan</h2>
+          </div>
+          <a class="link-arrow" href="tienda.html">Comprar el look →</a>
+        </div>
+        <div class="look-strip reveal">
+          <a href="producto.html?id=perla">
+            <img src="assets/img/editorial-minimal.jpg" alt="Vestido blanco de espalda, look de novia"
+                 width="1200" height="800" loading="lazy">
+            <span>Ceremonia</span>
+          </a>
+          <a href="producto.html?id=noir">
+            <img src="assets/img/editorial-verde.jpg" alt="Vestido verde caminando entre arcos"
+                 width="1200" height="787" loading="lazy">
+            <span>Ciudad</span>
+          </a>
+          <a href="producto.html?id=lazo">
+            <img src="assets/img/editorial-retrato.jpg" alt="Retrato editorial con blazer mostaza"
+                 width="1000" height="1499" loading="lazy">
+            <span>Noche</span>
+          </a>
+          <a href="producto.html?id=odette">
+            <img src="assets/img/tallas.jpg" alt="Mujer descalza junto a la ventana"
+                 width="1200" height="800" loading="lazy">
+            <span>Descanso</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+      <div class="newsletter-media">
+        <img src="assets/img/editorial-minimal.jpg" alt="Detalle de vestido blanco con espalda abierta"
+             width="1200" height="800" loading="lazy">
+      </div>
+      <div class="newsletter-body">
+        <p class="eyebrow eyebrow--light">Carta de temporada</p>
+        <h2>20% en tu primera compra</h2>
+        <p>Recibe el cupón de temporada, la guía de tallas en PDF y un aviso cuando llegue
+           tu talla de los modelos agotados. Nada más.</p>
+        <form class="newsletter-form" data-newsletter="home" novalidate>
+          <label for="homeEmail" style="position:absolute;left:-9999px">Correo electrónico</label>
+          <input id="homeEmail" type="email" name="email" placeholder="tu@correo.com" required>
+          <button class="btn" type="submit">Quiero mi cupón</button>
+        </form>
+        <p class="form-note">Al suscribirte aceptas la
+          <a href="politicas.html#privacidad">política de tratamiento de datos</a>.
+          Puedes darte de baja en un clic.</p>
+      </div>
+    </section>
+  </main>
+
+  <div id="app-drawer"></div>
+  <div id="app-modal"></div>
+  <div id="app-video"></div>
+  <div id="app-footer"></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/core.js"></script>
+  <script src="assets/js/layout.js"></script>
+  <script src="assets/js/chatbot.js"></script>
+  <script src="assets/js/home.js"></script>
+</body>
+</html>

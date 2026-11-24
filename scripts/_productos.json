@@ -1,0 +1,711 @@
+[
+ {
+  "id": "amelie",
+  "nombre": "Amélie",
+  "subtitulo": "Salón en seda con borlas",
+  "categoria": "Tacones",
+  "precio": 289000,
+  "antes": 349000,
+  "color": "Marfil",
+  "grupoColor": "marfil",
+  "material": "Seda",
+  "tacon": "Alto",
+  "taconCm": 9,
+  "tallas": [
+   35,
+   36,
+   37,
+   38,
+   39,
+   40
+  ],
+  "agotadas": [
+   40
+  ],
+  "etiqueta": "Nuevo",
+  "valoracion": 4.8,
+  "resenas": 32,
+  "imagenes": [
+   {
+    "src": "assets/img/p-amelie.jpg"
+   },
+   {
+    "src": "assets/img/editorial-minimal.jpg"
+   },
+   {
+    "src": "assets/img/look-calle.jpg"
+   }
+  ],
+  "corto": "Un clásico de ceremonia: seda, borlas y una línea que estiliza el pie.",
+  "descripcion": "Amélie nació de un vestido de novia. La seda se corta al bies para que el pie respire y las borlas se cosen a mano una por una. Es el salón que usamos con vestido largo, con sastre o con jean recto: la altura justa para estar de pie toda la noche.",
+  "horma": "Horma estrecha. Si tu pie es ancho o usas medias, elige media talla más.",
+  "cuidados": "Seda. Limpiar con paño seco, guardar en bolsa de tela y evitar la lluvia.",
+  "suela": "Suela de cuero con tapilla antideslizante."
+ },
+ {
+  "id": "noir",
+  "nombre": "Noir",
+  "subtitulo": "Botín de cuero con tacón cuadrado",
+  "categoria": "Botines",
+  "precio": 349000,
+  "color": "Negro",
+  "grupoColor": "negro",
+  "material": "Cuero",
+  "tacon": "Bajo",
+  "taconCm": 4,
+  "tallas": [
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40,
+   41
+  ],
+  "agotadas": [],
+  "etiqueta": "Más vendido",
+  "valoracion": 4.9,
+  "resenas": 128,
+  "imagenes": [
+   {
+    "src": "assets/img/p-noir.jpg"
+   },
+   {
+    "src": "assets/img/ocasion-oficina.jpg"
+   },
+   {
+    "src": "assets/img/look-calle.jpg"
+   }
+  ],
+  "corto": "El botín que resuelve el invierno entero: cuero flexible y tacón estable.",
+  "descripcion": "Cortado en cuero vacuno de curtición vegetal, Noir tiene la caña justa para acompañar el tobillo sin apretar. El tacón cuadrado de 4 cm reparte el peso y la plantilla acolchada lo vuelve un zapato de doce horas.",
+  "horma": "Horma estándar. Te recomendamos tu talla habitual.",
+  "cuidados": "Cuero. Hidratar cada dos meses y dejar secar a la sombra.",
+  "suela": "Suela de goma inyectada, adherente en piso mojado."
+ },
+ {
+  "id": "siena",
+  "nombre": "Siena",
+  "subtitulo": "Botín camel de caña corta",
+  "categoria": "Botines",
+  "precio": 329000,
+  "antes": 379000,
+  "color": "Camel",
+  "grupoColor": "camel",
+  "material": "Cuero",
+  "tacon": "Medio",
+  "taconCm": 6,
+  "tallas": [
+   35,
+   36,
+   37,
+   38,
+   39,
+   40
+  ],
+  "agotadas": [
+   35
+  ],
+  "etiqueta": "Temporada",
+  "valoracion": 4.7,
+  "resenas": 54,
+  "imagenes": [
+   {
+    "src": "assets/img/p-siena.jpg"
+   },
+   {
+    "src": "assets/img/ocasion-diario.jpg"
+   },
+   {
+    "src": "assets/img/editorial-boutique.jpg"
+   }
+  ],
+  "corto": "Camel, caña corta y un tacón que se siente como plano.",
+  "descripcion": "Siena es el tono que combina con todo: denim, lana, cuero. Su caña corta deja ver el tobillo y estiliza la pierna; el tacón de 6 cm tiene base ancha para que puedas caminar la ciudad completa sin pensarlo.",
+  "horma": "Horma amplia. Si estás entre dos tallas, elige la menor.",
+  "cuidados": "Cuero. Usar crema incolora y cepillo de crin.",
+  "suela": "Suela de cuero con inyección antideslizante."
+ },
+ {
+  "id": "perla",
+  "nombre": "Perla",
+  "subtitulo": "Sandalia de novia con flecos",
+  "categoria": "Novia",
+  "precio": 419000,
+  "color": "Marfil",
+  "grupoColor": "marfil",
+  "material": "Seda",
+  "tacon": "Alto",
+  "taconCm": 8.5,
+  "tallas": [
+   35,
+   36,
+   37,
+   38,
+   39
+  ],
+  "agotadas": [],
+  "etiqueta": "Edición limitada",
+  "valoracion": 5,
+  "resenas": 21,
+  "imagenes": [
+   {
+    "src": "assets/img/p-perla.jpg"
+   },
+   {
+    "src": "assets/img/p-aurora.jpg"
+   },
+   {
+    "src": "assets/img/editorial-minimal.jpg"
+   }
+  ],
+  "corto": "Hecha a mano en series de veinte pares. El fleco se mueve con cada paso.",
+  "descripcion": "Perla se produce en series de veinte pares por temporada. Cada fleco se ata a mano y la plantilla lleva una capa extra de látex para que el día más largo del año no se sienta así. También la eligen madrinas y graduadas.",
+  "horma": "Horma estrecha. Media talla más si tu pie es ancho.",
+  "cuidados": "Seda y flecos. Guardar en la bolsa de tela incluida.",
+  "suela": "Cuero y goma. Tacón forrado a mano."
+ },
+ {
+  "id": "coco",
+  "nombre": "Coco",
+  "subtitulo": "Sandalia plana de tiras finas",
+  "categoria": "Sandalias",
+  "precio": 199000,
+  "color": "Negro",
+  "grupoColor": "negro",
+  "material": "Cuero",
+  "tacon": "Plano",
+  "taconCm": 1,
+  "tallas": [
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40
+  ],
+  "agotadas": [
+   34
+  ],
+  "etiqueta": "",
+  "valoracion": 4.6,
+  "resenas": 87,
+  "imagenes": [
+   {
+    "src": "assets/img/p-coco.jpg",
+    "pos": "25% 50%"
+   },
+   {
+    "src": "assets/img/editorial-verde.jpg"
+   },
+   {
+    "src": "assets/img/tallas.jpg"
+   }
+  ],
+  "corto": "La sandalia de todos los días: dos tiras, cero esfuerzo.",
+  "descripcion": "Dos tiras de cuero flexible y una plantilla que se adapta al arco. Coco es la sandalia que vive en la cartera de abril a septiembre: se lleva al mercado, a la oficina y a la cena sin cambiarse.",
+  "horma": "Horma estándar. Las tiras ceden con el uso.",
+  "cuidados": "Cuero. Limpiar con paño húmedo y secar al aire.",
+  "suela": "Goma flexible cosida, no pegada."
+ },
+ {
+  "id": "lua",
+  "nombre": "Lúa",
+  "subtitulo": "Mocasín bicolor de cuero",
+  "categoria": "Mocasines",
+  "precio": 259000,
+  "color": "Camel",
+  "grupoColor": "camel",
+  "material": "Cuero",
+  "tacon": "Plano",
+  "taconCm": 1.5,
+  "tallas": [
+   35,
+   36,
+   37,
+   38,
+   39,
+   40,
+   41
+  ],
+  "agotadas": [],
+  "etiqueta": "Nuevo",
+  "valoracion": 4.8,
+  "resenas": 41,
+  "imagenes": [
+   {
+    "src": "assets/img/p-lua.jpg"
+   },
+   {
+    "src": "assets/img/editorial-boutique.jpg"
+   },
+   {
+    "src": "assets/img/ocasion-oficina.jpg"
+   }
+  ],
+  "corto": "Mocasín de colegiala, versión adulta: cuero suave y suela ligera.",
+  "descripcion": "Lúa se inspira en los mocasines que usaban nuestras abuelas, pero con una horma actual y una suela que pesa la mitad. El contraste bicolor se hace cosiendo dos cueros distintos: negro arriba, camel abajo.",
+  "horma": "Horma estándar. Si usas medias gruesas, sube media talla.",
+  "cuidados": "Cuero. Cepillar y aplicar crema neutra una vez al mes.",
+  "suela": "Goma ligera con costura perimetral."
+ },
+ {
+  "id": "estrella",
+  "nombre": "Estrella",
+  "subtitulo": "Mule con tachuelas",
+  "categoria": "Mules",
+  "precio": 279000,
+  "antes": 319000,
+  "color": "Negro",
+  "grupoColor": "negro",
+  "material": "Cuero",
+  "tacon": "Bajo",
+  "taconCm": 3,
+  "tallas": [
+   35,
+   36,
+   37,
+   38,
+   39,
+   40
+  ],
+  "agotadas": [
+   39
+  ],
+  "etiqueta": "Outlet",
+  "valoracion": 4.5,
+  "resenas": 19,
+  "imagenes": [
+   {
+    "src": "assets/img/p-estrella.jpg"
+   },
+   {
+    "src": "assets/img/editorial-retrato.jpg"
+   },
+   {
+    "src": "assets/img/look-calle.jpg"
+   }
+  ],
+  "corto": "Tachuelas plateadas sobre cuero negro. Se pone en dos segundos.",
+  "descripcion": "Estrella es el mule que usas cuando no tienes tiempo de pensar. Sin cordones, sin hebillas: entras el pie y sales. Las tachuelas se colocan a mano y el tacón de 3 cm tiene una base que no se hunde en el pasto.",
+  "horma": "Horma estándar. El empeine es bajo, apto para pie alto.",
+  "cuidados": "Cuero. Evitar roces con superficies duras.",
+  "suela": "Cuero con tapilla de goma."
+ },
+ {
+  "id": "bruna",
+  "nombre": "Bruna",
+  "subtitulo": "Botín de ante con tacón de aguja",
+  "categoria": "Botines",
+  "precio": 339000,
+  "color": "Negro",
+  "grupoColor": "negro",
+  "material": "Ante",
+  "tacon": "Alto",
+  "taconCm": 9,
+  "tallas": [
+   35,
+   36,
+   37,
+   38,
+   39
+  ],
+  "agotadas": [
+   35,
+   36
+  ],
+  "etiqueta": "Últimas tallas",
+  "valoracion": 4.9,
+  "resenas": 66,
+  "imagenes": [
+   {
+    "src": "assets/img/p-bruna.jpg"
+   },
+   {
+    "src": "assets/img/ocasion-fiesta.jpg"
+   },
+   {
+    "src": "assets/img/editorial-retrato.jpg"
+   }
+  ],
+  "corto": "El botín de fiesta: ante negro, caña alta y tacón fino.",
+  "descripcion": "Bruna alarga la pierna sin esfuerzo. La caña sube por encima del tobillo y el ante absorbe la luz de manera distinta al cuero: se ve más profundo. El tacón de aguja lleva refuerzo interno para que no baile al caminar.",
+  "horma": "Horma ajustada. Recomendamos media talla más.",
+  "cuidados": "Ante. Cepillo especial y protector hidrófugo antes del primer uso.",
+  "suela": "Cuero y goma. Tacón de aguja reforzado."
+ },
+ {
+  "id": "odette",
+  "nombre": "Odette",
+  "subtitulo": "Sandalia de tiras con tacón medio",
+  "categoria": "Sandalias",
+  "precio": 309000,
+  "color": "Nude",
+  "grupoColor": "marfil",
+  "material": "Cuero",
+  "tacon": "Medio",
+  "taconCm": 7,
+  "tallas": [
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40
+  ],
+  "agotadas": [],
+  "etiqueta": "Más vendido",
+  "valoracion": 4.7,
+  "resenas": 94,
+  "imagenes": [
+   {
+    "src": "assets/img/p-odette.jpg"
+   },
+   {
+    "src": "assets/img/editorial-verde.jpg"
+   },
+   {
+    "src": "assets/img/tallas.jpg"
+   }
+  ],
+  "corto": "Tiras que abrazan el pie y un tono nude que alarga la pierna.",
+  "descripcion": "Odette es la sandalia de las bodas de día y las cenas de trabajo. Las tiras se humedecen y se moldean al pie antes de coser: por eso no marcan y se ajustan al empeine.",
+  "horma": "Horma estándar. Las tiras se ajustan en el empeine.",
+  "cuidados": "Cuero. Limpiar con paño seco y guardar con horma de papel.",
+  "suela": "Cuero con tapilla antideslizante."
+ },
+ {
+  "id": "aurora",
+  "nombre": "Aurora",
+  "subtitulo": "Salón de novia en cristal",
+  "categoria": "Novia",
+  "precio": 459000,
+  "color": "Marfil",
+  "grupoColor": "marfil",
+  "material": "Textil",
+  "tacon": "Alto",
+  "taconCm": 8,
+  "tallas": [
+   35,
+   36,
+   37,
+   38,
+   39,
+   40
+  ],
+  "agotadas": [
+   37
+  ],
+  "etiqueta": "Edición limitada",
+  "valoracion": 5,
+  "resenas": 14,
+  "imagenes": [
+   {
+    "src": "assets/img/p-aurora.jpg"
+   },
+   {
+    "src": "assets/img/p-perla.jpg"
+   },
+   {
+    "src": "assets/img/editorial-minimal.jpg"
+   }
+  ],
+  "corto": "Cristales cosidos a mano sobre tul. Se enciende con la luz.",
+  "descripcion": "Aurora se hace en un taller de tres personas en Medellín. Cada cristal se cose, no se pega: por eso no se desprende con el baile. El tul se monta sobre una base de satén para que el pie no se vea a través.",
+  "horma": "Horma estándar. Media talla más si tu pie es ancho.",
+  "cuidados": "Textil y cristal. Limpiar solo con paño seco.",
+  "suela": "Cuero. Tacón forrado en satén."
+ },
+ {
+  "id": "argent",
+  "nombre": "Argent",
+  "subtitulo": "Salón metalizado de fiesta",
+  "categoria": "Tacones",
+  "precio": 299000,
+  "color": "Plata",
+  "grupoColor": "plata",
+  "material": "Textil",
+  "tacon": "Medio",
+  "taconCm": 6,
+  "tallas": [
+   35,
+   36,
+   37,
+   38,
+   39,
+   40
+  ],
+  "agotadas": [],
+  "etiqueta": "Temporada",
+  "valoracion": 4.6,
+  "resenas": 28,
+  "imagenes": [
+   {
+    "src": "assets/img/p-argent.jpg"
+   },
+   {
+    "src": "assets/img/editorial-retrato.jpg"
+   },
+   {
+    "src": "assets/img/ocasion-fiesta.jpg"
+   }
+  ],
+  "corto": "Plateado, con punta fina y un tacón que se aguanta hasta el final.",
+  "descripcion": "Argent está pensado para diciembre: plateado, punta fina y una altura de 6 cm que permite estar de pie en una recepción completa. El laminado se protege con una capa mate para que no se vea plástico.",
+  "horma": "Horma estándar. Punta fina: elige media talla más si tu pie es ancho.",
+  "cuidados": "Laminado textil. Guardar en bolsa y evitar la fricción.",
+  "suela": "Goma antideslizante."
+ },
+ {
+  "id": "dama",
+  "nombre": "Dama",
+  "subtitulo": "Pump negro de tacón alto",
+  "categoria": "Tacones",
+  "precio": 269000,
+  "color": "Negro",
+  "grupoColor": "negro",
+  "material": "Cuero",
+  "tacon": "Alto",
+  "taconCm": 10,
+  "tallas": [
+   35,
+   36,
+   37,
+   38,
+   39
+  ],
+  "agotadas": [
+   38
+  ],
+  "etiqueta": "Últimas tallas",
+  "valoracion": 4.4,
+  "resenas": 47,
+  "imagenes": [
+   {
+    "src": "assets/img/p-dama.jpg"
+   },
+   {
+    "src": "assets/img/ocasion-fiesta.jpg"
+   },
+   {
+    "src": "assets/img/editorial-retrato.jpg"
+   }
+  ],
+  "corto": "El pump de siempre, hecho para durar más de una temporada.",
+  "descripcion": "Dama es la base de cualquier armario: negro, punta redondeada y tacón de 10 cm con base de 8 mm. La plantilla lleva una lámina de gel en el talón que amortigua el impacto al caminar.",
+  "horma": "Horma estándar. Un poco justa al principio, cede con el uso.",
+  "cuidados": "Cuero. Usar horma de madera para conservar la forma.",
+  "suela": "Cuero con tapilla de goma."
+ },
+ {
+  "id": "mar",
+  "nombre": "Mar",
+  "subtitulo": "Sandalia blanca de playa",
+  "categoria": "Sandalias",
+  "precio": 179000,
+  "color": "Blanco",
+  "grupoColor": "blanco",
+  "material": "Cuero",
+  "tacon": "Plano",
+  "taconCm": 2,
+  "tallas": [
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40,
+   41
+  ],
+  "agotadas": [],
+  "etiqueta": "",
+  "valoracion": 4.5,
+  "resenas": 73,
+  "imagenes": [
+   {
+    "src": "assets/img/p-mar.jpg"
+   },
+   {
+    "src": "assets/img/editorial-verde.jpg"
+   },
+   {
+    "src": "assets/img/tallas.jpg"
+   }
+  ],
+  "corto": "Cuero blanco, plantilla acolchada y correa ajustable.",
+  "descripcion": "Mar se diseñó para el calor: cuero blanco curtido al vegetal, plantilla de látex y una correa que se ajusta con hebilla de latón. La suela de goma se puede mojar y se limpia con agua.",
+  "horma": "Horma amplia. Talla habitual.",
+  "cuidados": "Cuero. Secar a la sombra después de la playa.",
+  "suela": "Goma antideslizante acanalada."
+ },
+ {
+  "id": "otono",
+  "nombre": "Otoño",
+  "subtitulo": "Zapato bajo de cuero",
+  "categoria": "Planos",
+  "precio": 229000,
+  "color": "Negro",
+  "grupoColor": "negro",
+  "material": "Cuero",
+  "tacon": "Bajo",
+  "taconCm": 3,
+  "tallas": [
+   35,
+   36,
+   37,
+   38,
+   39,
+   40,
+   41
+  ],
+  "agotadas": [
+   41
+  ],
+  "etiqueta": "",
+  "valoracion": 4.7,
+  "resenas": 58,
+  "imagenes": [
+   {
+    "src": "assets/img/p-otono.jpg"
+   },
+   {
+    "src": "assets/img/ocasion-oficina.jpg"
+   },
+   {
+    "src": "assets/img/look-calle.jpg"
+   }
+  ],
+  "corto": "Bajo, cerrado y con suela gruesa: el zapato de las caminatas largas.",
+  "descripcion": "Otoño tiene la forma de un zapato de hombre y la suavidad de uno de mujer. La suela de 3 cm aisla del frío y del pavimento, y el cuero se ablanda con el uso hasta quedar como un guante.",
+  "horma": "Horma amplia. Si estás entre dos tallas, elige la menor.",
+  "cuidados": "Cuero. Hidratar y cepillar con regularidad.",
+  "suela": "Goma dentada de 3 cm."
+ },
+ {
+  "id": "roble",
+  "nombre": "Roble",
+  "subtitulo": "Bota alta de cuero",
+  "categoria": "Botas",
+  "precio": 389000,
+  "color": "Café",
+  "grupoColor": "camel",
+  "material": "Cuero",
+  "tacon": "Bajo",
+  "taconCm": 4,
+  "tallas": [
+   35,
+   36,
+   37,
+   38,
+   39,
+   40
+  ],
+  "agotadas": [],
+  "etiqueta": "Temporada",
+  "valoracion": 4.8,
+  "resenas": 36,
+  "imagenes": [
+   {
+    "src": "assets/img/p-roble.jpg"
+   },
+   {
+    "src": "assets/img/editorial-boutique.jpg"
+   },
+   {
+    "src": "assets/img/ocasion-diario.jpg"
+   }
+  ],
+  "corto": "Cuero café envejecido, cordones de algodón y suela de goma.",
+  "descripcion": "Roble es la bota que se hereda. Cuero de plena flor, cordones de algodón encerado y una suela que se puede cambiar en el taller cuando se gaste. Con el tiempo toma el color de quien la usa.",
+  "horma": "Horma estándar. Con media gruesa, sube media talla.",
+  "cuidados": "Cuero. Limpiar con paño húmedo, hidratar y guardar con horma.",
+  "suela": "Goma cosida, reemplazable."
+ },
+ {
+  "id": "lazo",
+  "nombre": "Lazo",
+  "subtitulo": "Sandalia de tiras finas y tacón",
+  "categoria": "Sandalias",
+  "precio": 289000,
+  "color": "Negro",
+  "grupoColor": "negro",
+  "material": "Cuero",
+  "tacon": "Alto",
+  "taconCm": 9,
+  "tallas": [
+   35,
+   36,
+   37,
+   38,
+   39,
+   40
+  ],
+  "agotadas": [
+   40
+  ],
+  "etiqueta": "Más vendido",
+  "valoracion": 4.8,
+  "resenas": 112,
+  "imagenes": [
+   {
+    "src": "assets/img/p-lazo.jpg"
+   },
+   {
+    "src": "assets/img/ocasion-fiesta.jpg"
+   },
+   {
+    "src": "assets/img/editorial-retrato.jpg"
+   }
+  ],
+  "corto": "Tres tiras, un nudo y la altura exacta para una noche larga.",
+  "descripcion": "Lazo se ata al tobillo con una tira de cuero de 90 cm que cada quien ajusta a su medida. El tacón de 9 cm tiene base de 10 mm: se ve fino, se siente estable.",
+  "horma": "Horma estándar. La tira del tobillo se ajusta.",
+  "cuidados": "Cuero. Guardar colgada o con papel en la puntera.",
+  "suela": "Cuero con tapilla de goma."
+ },
+ {
+  "id": "milan",
+  "nombre": "Milán",
+  "subtitulo": "Salón de tiras con tacón alto",
+  "categoria": "Tacones",
+  "precio": 319000,
+  "color": "Negro",
+  "grupoColor": "negro",
+  "material": "Cuero",
+  "tacon": "Alto",
+  "taconCm": 8,
+  "tallas": [
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40
+  ],
+  "agotadas": [],
+  "etiqueta": "Nuevo",
+  "valoracion": 4.9,
+  "resenas": 26,
+  "imagenes": [
+   {
+    "src": "assets/img/p-milan.jpg"
+   },
+   {
+    "src": "assets/img/ocasion-oficina.jpg"
+   },
+   {
+    "src": "assets/img/look-calle.jpg"
+   }
+  ],
+  "corto": "El salón de tiras que va de la oficina a la cena sin cambiarse.",
+  "descripcion": "Milán combina la estructura de un salón con la ligereza de una sandalia. Las tiras se cortan en una sola pieza para que no haya costuras que rocen, y el tacón de 8 cm se afina hacia abajo sin perder base.",
+  "horma": "Horma estándar.",
+  "cuidados": "Cuero. Hidratar cada dos meses.",
+  "suela": "Cuero y goma."
+ }
+]

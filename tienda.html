@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tienda · Lunaria | Tacones, botines, sandalias y novia</title>
+  <meta name="description" content="Explora los 17 modelos de Lunaria. Filtra por talla disponible, tipo de tacón, color y categoría. Envío gratis desde $ 250.000 y cambios gratis 15 días.">
+  <meta name="theme-color" content="#1c1a17">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="tienda">
+  <a class="skip-link" href="#main">Ir al contenido</a>
+  <div id="app-header"></div>
+
+  <main id="main">
+    <div class="page-head">
+      <div class="wrap">
+        <nav class="breadcrumb" aria-label="Ruta de navegación">
+          <a href="index.html">Inicio</a><span></span><span>Tienda</span>
+        </nav>
+        <h1>La tienda</h1>
+        <p>Diecisiete modelos en pequeños lotes. Filtra por <strong>talla disponible</strong>,
+           tipo de tacón o color: cada ficha indica si la horma es estrecha, estándar o amplia.</p>
+      </div>
+    </div>
+
+    <div class="wrap" style="padding-top:clamp(24px,3vw,40px)">
+      <div class="shop-layout">
+        <aside class="filters" id="filtersPanel" aria-label="Filtros de catálogo">
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px">
+            <p class="eyebrow" style="margin:0">Filtrar</p>
+            <button class="icon-btn" type="button" data-cerrar-filtros aria-label="Cerrar filtros"
+                    id="cerrarFiltros">✕</button>
+          </div>
+
+          <div class="filter-group">
+            <h3>Talla disponible</h3>
+            <div class="filter-body">
+              <div class="size-chips" id="listaTalla"></div>
+              <p style="font-size:.72rem;color:var(--muted);margin:8px 0 0">
+                Solo mostramos modelos con esa talla en stock.
+              </p>
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <h3>Categoría</h3>
+            <div class="filter-body" id="listaCategoria"></div>
+          </div>
+
+          <div class="filter-group">
+            <h3>Tacón</h3>
+            <div class="filter-body" id="listaTacon"></div>
+          </div>
+
+          <div class="filter-group">
+            <h3>Color</h3>
+            <div class="filter-body" id="listaColor"></div>
+          </div>
+
+          <div class="filter-group">
+            <h3>Precio</h3>
+            <div class="filter-body" id="listaPrecio"></div>
+          </div>
+
+          <div style="padding-top:18px">
+            <a class="btn btn--block" href="guia-de-tallas.html">Guía de tallas</a>
+          </div>
+        </aside>
+
+        <section aria-label="Resultados">
+          <div class="shop-toolbar">
+            <div style="display:flex;align-items:center;gap:14px">
+              <button class="btn filters-toggle" type="button" id="filtersToggle"
+                      aria-expanded="false" aria-controls="filtersPanel">Filtros</button>
+              <span class="count" id="resultCount">17 piezas</span>
+            </div>
+            <div class="toolbar-right">
+              <label for="orden" style="position:absolute;left:-9999px">Ordenar por</label>
+              <select class="select" id="orden">
+                <option value="destacados">Destacados</option>
+                <option value="novedades">Novedades</option>
+                <option value="precio-asc">Precio: menor a mayor</option>
+                <option value="precio-desc">Precio: mayor a menor</option>
+                <option value="valoracion">Mejor valorados</option>
+              </select>
+            </div>
+          </div>
+
+          <p id="modoFavoritos" hidden style="font-size:.8rem;color:var(--muted);margin-bottom:16px">
+            Estás viendo solo los modelos que guardaste en favoritos.
+            <a href="tienda.html" style="text-decoration:underline">Ver todo el catálogo</a>
+          </p>
+
+          <div class="active-filters" id="activeFilters"></div>
+
+          <div class="product-grid product-grid--wide" id="productGrid"></div>
+
+          <div class="empty-state" id="emptyState" hidden>
+            <h3>No encontramos esa combinación</h3>
+            <p style="color:var(--muted)">Prueba con otra talla o quita algún filtro.
+              Si buscas un modelo agotado, escríbenos por WhatsApp y te avisamos.</p>
+            <a class="btn" href="tienda.html">Ver todo el catálogo</a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <div id="app-drawer"></div>
+  <div id="app-modal"></div>
+  <div id="app-footer"></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/core.js"></script>
+  <script src="assets/js/layout.js"></script>
+  <script src="assets/js/chatbot.js"></script>
+  <script src="assets/js/shop.js"></script>
+</body>
+</html>

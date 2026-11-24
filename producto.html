@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Producto · Lunaria</title>
+  <meta name="description" content="Detalle del modelo, tallas disponibles, horma y cuidados. Cambios gratis 15 días y envío a todo Colombia.">
+  <meta name="theme-color" content="#1c1a17">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="producto">
+  <a class="skip-link" href="#main">Ir al contenido</a>
+  <div id="app-header"></div>
+
+  <main id="main">
+    <div class="wrap" style="padding-top:clamp(16px,2vw,26px)">
+      <nav class="breadcrumb" id="crumbs" aria-label="Ruta de navegación"></nav>
+    </div>
+
+    <div class="wrap product-layout" id="productRoot">
+      <div class="gallery" id="gallery"></div>
+      <div class="product-info" id="productInfo"></div>
+    </div>
+
+    <section class="section section--sand" style="padding:clamp(48px,6vw,80px) 0">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Combínalo</p>
+            <h2>Completa el look</h2>
+          </div>
+          <a class="link-arrow" href="tienda.html">Ver todo →</a>
+        </div>
+        <div class="product-grid" id="relatedGrid"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Reseñas verificadas</p>
+            <h2>Quienes ya las usan</h2>
+          </div>
+          <div class="rating"><span class="stars">★★★★★</span><span>Compra verificada</span></div>
+        </div>
+        <div class="quote-band" id="reviewsList"></div>
+        <p style="font-size:.8rem;color:var(--muted);margin-top:26px">
+          Las reseñas incluyen la talla que usó cada clienta y si el modelo le quedó justo o amplio.
+          Publicamos las buenas y las no tan buenas.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <div class="sticky-buy" id="stickyBuy"></div>
+  <div id="app-drawer"></div>
+  <div id="app-modal"></div>
+  <div id="app-footer"></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/core.js"></script>
+  <script src="assets/js/layout.js"></script>
+  <script src="assets/js/chatbot.js"></script>
+  <script src="assets/js/producto.js"></script>
+</body>
+</html>
