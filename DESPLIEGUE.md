@@ -6,6 +6,18 @@ y obtener una URL pública tipo `https://tu-usuario.github.io/lunaria/`.
 > El proyecto ya viene preparado: `.nojekyll`, `404.html` con la identidad de la marca,
 > `.gitignore` y un script `deploy.ps1` que hace casi todo. Solo faltan tu cuenta y tus datos.
 
+## Atajo: dos archivos que te evitan escribir comandos
+
+En la carpeta del proyecto hay dos accesos directos (doble clic):
+
+| Archivo | Qué hace |
+|---|---|
+| **`abrir-terminal.cmd`** | Abre PowerShell **ya ubicada** en la carpeta del proyecto |
+| **`publicar.cmd`** | Te pide la URL del repositorio y ejecuta commit + push por ti |
+
+Con `publicar.cmd` puedes saltarte los pasos 2, 4 y 6 de esta guía la primera vez.
+Si prefieres entender qué pasa por dentro, sigue la guía con la terminal abierta.
+
 ---
 
 ## Antes de empezar
